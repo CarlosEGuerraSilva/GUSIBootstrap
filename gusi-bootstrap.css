@@ -1,0 +1,244 @@
+:root {
+    /* Primary color */
+    --color-primary-base-r: 16;
+    --color-primary-base-g: 160;
+    --color-primary-base-b: 132;
+    --color-primary: rgb(var(--color-primary-base-r), var(--color-primary-base-g), var(--color-primary-base-b));
+    /* Secondary color */
+    --color-secondary-base-r: 16;
+    --color-secondary-base-g: 100;
+    --color-secondary-base-b: 86;
+    --color-secondary: rgb(var(--color-secondary-base-r), var(--color-secondary-base-g), var(--color-secondary-base-b));
+    /* Success color */
+    --color-success-base-r: 0;
+    --color-success-base-g: 160;
+    --color-success-base-b: 100;
+    --color-success: rgb(var(--color-success-base-r), var(--color-success-base-g), var(--color-success-base-b));
+    /* Danger color */
+    --color-danger-base-r: 205;
+    --color-danger-base-g: 50;
+    --color-danger-base-b: 70;
+    --color-danger: rgb(var(--color-danger-base-r), var(--color-danger-base-g), var(--color-danger-base-b));
+    /* Warning color */
+    --color-warning-base-r: 255;
+    --color-warning-base-g: 190;
+    --color-warning-base-b: 0;
+    --color-warning: rgb(var(--color-warning-base-r), var(--color-warning-base-g), var(--color-warning-base-b));
+    /* Info color */
+    --color-info-base-r: 0;
+    --color-info-base-g: 180;
+    --color-info-base-b: 210;
+    --color-info: rgb(var(--color-info-base-r), var(--color-info-base-g), var(--color-info-base-b));
+    /* Light color */
+    --color-light-base-r: 235;
+    --color-light-base-g: 235;
+    --color-light-base-b: 235;
+    --color-light: rgb(var(--color-light-base-r), var(--color-light-base-g), var(--color-light-base-b));
+    /* Dark color */
+    --color-dark-base-r: 25;
+    --color-dark-base-g: 25;
+    --color-dark-base-b: 25;
+    --color-dark: rgb(var(--color-dark-base-r), var(--color-dark-base-g), var(--color-dark-base-b));
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*:focus {
+    outline: none;
+    -webkit-tap-highlight-color: none;
+}
+
+
+/* /// COLORES /// */
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+.color-success {
+    color: var(--color-success);
+}
+
+.color-danger {
+    color: var(--color-danger);
+}
+
+.color-warning {
+    color: var(--color-warning);
+}
+
+.color-info {
+    color: var(--color-info);
+}
+
+.color-light {
+    color: var(--color-light);
+}
+
+.color-dark {
+    color: var(--color-dark);
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-black {
+    color: #000;
+}
+
+.color-purple {
+    color: rgb(140, 0, 140);
+}
+
+.color-pink {
+    color: rgb(255, 90, 160);
+}
+
+.color-red {
+    color: rgb(255, 0, 0);
+}
+
+.color-orange {
+    color: rgb(255, 135, 0);
+}
+
+.color-golden {
+    color: rgb(230, 190, 0);
+}
+
+.color-yellow {
+    color: rgb(255, 255, 0);
+}
+
+.color-brown {
+    color: rgb(66, 50, 30);
+}
+
+.color-green {
+    color: rgb(0, 130, 0);
+}
+
+.color-cyan {
+    color: rgb(40, 165, 160);
+}
+
+.color-blue {
+    color: rgb(0, 55, 255);
+}
+
+.color-bluepants {
+    color: rgb(25, 75, 100);
+}
+
+.color-gray {
+    color: rgb(145, 145, 145);
+}
+
+.color-lightgray {
+    color: rgb(210, 210, 210);
+}
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||||||| */
+
+.background-primary {
+    background-color: var(--color-primary);
+}
+
+.background-secondary {
+    background-color: var(--color-secondary);
+}
+
+.background-success {
+    background-color: var(--color-success);
+}
+
+.background-danger {
+    background-color: var(--color-danger);
+}
+
+.background-warning {
+    background-color: var(--color-warning);
+}
+
+.background-info {
+    background-color: var(--color-info);
+}
+
+.background-light {
+    background-color: var(--color-light);
+}
+
+.background-dark {
+    background-color: var(--color-dark);
+}
+
+.background-white {
+    background-color: #fff;
+}
+
+.background-black {
+    background-color: #000;
+}
+
+.background-purple {
+    background-color: rgb(140, 0, 140);
+}
+
+.background-pink {
+    background-color: rgb(255, 90, 160);
+}
+
+.background-red {
+    background-color: rgb(255, 0, 0);
+}
+
+.background-orange {
+    background-color: rgb(255, 135, 0);
+}
+
+.background-golden {
+    background-color: rgb(230, 190, 0);
+}
+
+.background-yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+.background-brown {
+    background-color: rgb(66, 50, 30);
+}
+
+.background-green {
+    background-color: rgb(0, 130, 0);
+}
+
+.background-cyan {
+    background-color: rgb(40, 165, 160);
+}
+
+.background-blue {
+    background-color: rgb(0, 55, 255);
+}
+
+.background-bluepants {
+    background-color: rgb(25, 75, 100);
+}
+
+.background-gray {
+    background-color: rgb(145, 145, 145);
+}
+
+.background-lightgray {
+    background-color: rgb(210, 210, 210);
+}
