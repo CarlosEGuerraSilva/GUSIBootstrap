@@ -62,7 +62,7 @@
 }
 
 
-/* /// COLORES /// */
+/* /// COLORS /// */
 
 .color-primary {
     color: var(--color-primary);
@@ -250,6 +250,9 @@
 .background-lightgray {
     background-color: rgb(210, 210, 210);
 }
+
+
+/* /// Media breakpoints /// */
 
 
 /*Media breakpoint for --media-breakpoint-xsm: */
