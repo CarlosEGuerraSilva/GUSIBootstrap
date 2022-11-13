@@ -39,6 +39,14 @@
     --color-dark-base-g: 25;
     --color-dark-base-b: 25;
     --color-dark: rgb(var(--color-dark-base-r), var(--color-dark-base-g), var(--color-dark-base-b));
+    /* Media Breakpoints */
+    --media-breakpoint-xsm: 420px;
+    --media-breakpoint-sm: 500px;
+    --media-breakpoint-md: 768px;
+    --media-breakpoint-lg: 980px;
+    --media-breakpoint-xl: 1200px;
+    --media-breakpoint-xxl: 1400px;
+    --media-breakpoint-xxxl: 1650px;
 }
 
 * {
@@ -242,3 +250,38 @@
 .background-lightgray {
     background-color: rgb(210, 210, 210);
 }
+
+
+/*Media breakpoint for --media-breakpoint-xsm: */
+
+@media screen and (min-width: 420px) {}
+
+
+/*Media breakpoint for --media-breakpoint-sm: */
+
+@media screen and (min-width: 500px) {}
+
+
+/*Media breakpoint for --media-breakpoint-md: */
+
+@media screen and (min-width: 768px) {}
+
+
+/*Media breakpoint for --media-breakpoint-lg: */
+
+@media screen and (min-width: 980px) {}
+
+
+/*Media breakpoint for --media-breakpoint-xl: */
+
+@media screen and (min-width: 1200px) {}
+
+
+/*Media breakpoint for --media-breakpoint-xxl: */
+
+@media screen and (min-width: 1400px) {}
+
+
+/*Media breakpoint for --media-breakpoint-xxxl: */
+
+@media screen and (min-width: 1650px) {}
